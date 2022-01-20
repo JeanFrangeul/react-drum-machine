@@ -8,7 +8,7 @@ const GridButton = ({ isPlayed = false, soundPlay, id, handleSampleChange }) => 
                 onClick={(e) => e.stopPropagation()}
                 htmlFor={id}
             >
-                Add sound
+                ♫
             </label>
             <input
                 onClick={(e) => e.stopPropagation()}
@@ -67,5 +67,6 @@ const Wrapper = styled.div`
         right: 0;
         top: 0;
         cursor: pointer;
+        font-size: 32px;
     }
 `;

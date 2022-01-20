@@ -29,13 +29,16 @@ const Home = () => {
 
 export default Home;
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+    width: 100%;
+    display: flex;
+    align-items: center;
+`;
 
 const Grid = styled.div`
     display: grid;
     width: 400px;
     height: 400px;
-    border:solid 1px;
     grid-template-columns: 1fr 1fr;
     column-gap: 12px;
     row-gap: 12px;

@@ -22,9 +22,9 @@ const Layout = ({ children }) => {
     <ThemeProvider theme={isLight ? lightTheme : darkTheme}>
         <Wrapper>
             <GlobalStyle/>
-            <Header isLight={isLight} handleToggleTheme={handleToggleTheme}/>
+            <Header />
             <Main>{children}</Main>
-            <Footer />
+            <Footer isLight={isLight} handleToggleTheme={handleToggleTheme} />
         </Wrapper>
     </ThemeProvider>
     )
@@ -32,13 +32,15 @@ const Layout = ({ children }) => {
 
 export default Layout;
 
+console.log("Made by Ratus")
+
 
 const Wrapper = styled.div``;
 
 const Main = styled.div`
-    min-height: calc(100vh - 194px);
+    min-height: calc(100vh - 160px);
     width: 96%;
     max-width: 1240px;
     margin: auto;
-    margin-top: 32px
+    display: flex;
 `;

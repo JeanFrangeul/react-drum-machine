@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-drum-machine/static/css/main.68f627b3.css",
+    "main.js": "/react-drum-machine/static/js/main.be35dc5d.js",
+    "static/js/787.82bac418.chunk.js": "/react-drum-machine/static/js/787.82bac418.chunk.js",
+    "static/media/simple.wav": "/react-drum-machine/static/media/simple.30b588903bbca997d67a.wav",
+    "static/media/double.wav": "/react-drum-machine/static/media/double.6fe19e583c4afc461173.wav",
+    "static/media/kick.wav": "/react-drum-machine/static/media/kick.20522829985a6a40ffc8.wav",
+    "static/media/clap.wav": "/react-drum-machine/static/media/clap.2d1ae51fbf5919674e3c.wav",
+    "index.html": "/react-drum-machine/index.html",
+    "main.68f627b3.css.map": "/react-drum-machine/static/css/main.68f627b3.css.map",
+    "main.be35dc5d.js.map": "/react-drum-machine/static/js/main.be35dc5d.js.map",
+    "787.82bac418.chunk.js.map": "/react-drum-machine/static/js/787.82bac418.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68f627b3.css",
+    "static/js/main.be35dc5d.js"
+  ]
+}

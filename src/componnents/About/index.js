@@ -20,7 +20,7 @@ const About = () => {
                 <p className="small" >Entrainement pour le diplôme de développeur d'application web.</p>
             </section>
 
-            <section>by Ratus</section>
+            <section>by Jean Frangeul</section>
 
         </Wrapper>
     )

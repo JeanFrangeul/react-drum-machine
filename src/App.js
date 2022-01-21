@@ -12,8 +12,9 @@ const App = () => {
     <Router>
       <Layout>
         <Routes>
-          <Route element={<About/>} path="/about" />
-          <Route element={<Home/>} path="/" />
+          <Route element={<About />} path="/about" />
+          <Route element={<Home />} path="/" />
+          <Route element={<Home />} exact path="/react-drum-machine" />
         </Routes>
       </Layout>
     </Router>
